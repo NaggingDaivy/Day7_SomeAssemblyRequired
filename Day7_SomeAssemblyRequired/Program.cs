@@ -16,7 +16,7 @@ namespace Day7_SomeAssemblyRequired
             string[] lines;
             int i = 0;
 
-            lines = File.ReadAllLines(@"c:\Users\Daivy\Desktop\Day6Operations.txt");
+            lines = File.ReadAllLines(@".\Day7Operations.txt");
 
 
             bool hasAddedValue;
