@@ -149,12 +149,6 @@ namespace Day7_SomeAssemblyRequired
 
             } while (hasAddedValue);
             
-            
-
-
-
-
-
 
             Console.WriteLine("Value of wire a : {0}", dictionary["a"]);
 
