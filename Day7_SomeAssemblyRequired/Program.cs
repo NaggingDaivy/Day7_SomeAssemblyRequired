@@ -44,18 +44,14 @@ namespace Day7_SomeAssemblyRequired
 
                         if (!isNumberArg1 && !isNumberArg3) // Ex : lf AND lq -> ls
                         {
-                            if (dictionary.ContainsKey(lineArray[0]))
+                            if (dictionary.ContainsKey(lineArray[0]) && dictionary.ContainsKey(lineArray[2]))
                             {
                                 arg1 = dictionary[lineArray[0]];
-                                canAddResToDictionnary = true;
-                            }
-
-
-                            if (dictionary.ContainsKey(lineArray[2]))
-                            {
                                 arg3 = dictionary[lineArray[2]];
                                 canAddResToDictionnary = true;
                             }
+
+
 
                         }
                         else if (!isNumberArg1 && isNumberArg3) // Ex : lf AND 1 -> ls
